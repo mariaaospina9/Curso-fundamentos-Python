@@ -65,3 +65,50 @@ Se utiliza para obtener una entrada de texto del usuario a través de la consola
 my_name= input("¿Cuál es tu nombre?")
 print("Mi nombre es", my name)
 ```
+# Tipos de datos
+
+## Tipos de datos primitivos
+
+**Strings:** Cadena de caracteres (texto)
+
+```python
+my name="Maria"
+print("myname =>", my name)
+
+#Para diferenciar la variable
+print(type(my_name))
+```
+
+**Integers:** números Enteros
+
+```python
+my_age=12
+print("my age", my_age)
+print(tupe(my_age))
+```
+
+**Boolean:** Boolenaos (Verdadero o Falso)
+
+```python
+is_single = True
+print("is_single => ", is_single)
+print(type(is_single))
+```
+
+**Floats:** Números de punto flotante (decimales)
+
+## Tipos de dato adicionales
+
+**Datos en texto:** str
+
+**Datos numéricos:** int, float, complex
+
+**Datos en secuencia:** list, tuple, range
+
+**Datos de mapeo:** dict
+
+**Set Types:** set, frozenset
+
+**Datos booleanos:** bool
+
+**Datos binarios:** bytes, bytearray, memoryview
