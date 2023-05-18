@@ -139,7 +139,7 @@ print("v2",template)
 template= f"Hola, mi nombre es {name} y mi apellido es {last_name}"
 print("v3", template)
 ```
-#Numbers
+# Numbers
 
 *Las variables tipo numero pueden ser enteras o flotantes y siempre se declaran sin estar encerradas entre comillas ya que de lo contrario serian tipo string.
 
