@@ -79,7 +79,7 @@ print("myname =>", my name)
 print(type(my_name))
 ```
 
-**Integers:** números Enteros
+**Integers:** Números Enteros
 
 ```python
 my_age=12
@@ -99,16 +99,16 @@ print(type(is_single))
 
 ## Tipos de dato adicionales
 
-**Datos en texto:** str
+**- Datos en texto:** str
 
-**Datos numéricos:** int, float, complex
+**- Datos numéricos:** int, float, complex
 
-**Datos en secuencia:** list, tuple, range
+**- Datos en secuencia:** list, tuple, range
 
-**Datos de mapeo:** dict
+**- Datos de mapeo:** dict
 
-**Set Types:** set, frozenset
+**- Set Types:** set, frozenset
 
-**Datos booleanos:** bool
+**- Datos booleanos:** bool
 
-**Datos binarios:** bytes, bytearray, memoryview
+**- Datos binarios:** bytes, bytearray, memoryview
