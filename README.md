@@ -139,4 +139,41 @@ print("v2",template)
 template= f"Hola, mi nombre es {name} y mi apellido es {last_name}"
 print("v3", template)
 ```
+#Numbers
+
+*Las variables tipo numero pueden ser enteras o flotantes y siempre se declaran sin estar encerradas entre comillas ya que de lo contrario serian tipo string.
+
+## Int
+```python
+lives = 3
+print(type(lives))
+```
+
+## Float 
+```python
+temperature = 12.12
+print(type(temperature))
+```
+*Podemos realizar operaciones con la misma variable y para esto tenemos 2 formas de hacerlo, la cual la segunda es la forma simplificada donde se utilizan operadores de asignacion
+
+```python
+lives = lives - 1
+lives - =1
+print(lives)
+
+lives + =5
+print(lives)
+```
+
+*Python nos muestra en notación científica números cuyo valor es muy grande o muy pequeño
+
+```python
+#Valores extremadamente grandes 
+number = 45000000000000000000000000000
+print(number)
+
+#Valores extremadamente pequeños
+number_b= 0.00000000001
+print(number_b)
+```
 
