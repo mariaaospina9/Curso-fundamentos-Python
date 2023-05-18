@@ -48,4 +48,20 @@ Se utilizan normalmente para dejar comentarios entre líneas
 """ Dejar comentarios un poco mas 
 extensos """
 ```
+## Variables de programación ## 
 
+Todas las variables están nombradas para ser reconocidas durante la ejecución del código 
+
+```python
+my name= "Maria"
+print("Mi nombre es",my_name)
+```
+
+## Input
+
+Se utiliza para obtener una entrada de texto del usuario a través de la consola
+
+```python
+my_name= input("¿Cuál es tu nombre?")
+print("Mi nombre es", my name)
+```
