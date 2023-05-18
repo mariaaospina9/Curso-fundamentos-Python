@@ -1,7 +1,7 @@
 # Curso-fundamentos-Python
 Ejercicios de curso práctico de platzi
 
-
+##  ¿Por que utilizar Python? ##
 1. Python siempre ocupa los primeros puestos de los lenguajes mas queridos. En el año 2021 en la encuesta realizada por "Developer Survey" ocupa el cuarto puesto.
 
 2. Es fácil de aprender. Su curva de aprendizaje no es tan pronunciada.
