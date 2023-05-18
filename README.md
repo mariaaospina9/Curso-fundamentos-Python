@@ -39,5 +39,13 @@ Se utiliza para imprimir notas o resultados
 ```python
 print("Hola, mi nombre es Maria Antonia")
 ```
+## Uso de las comillas triples y numeral ##
 
+Se utilizan normalmente para dejar comentarios entre líneas
+
+```python
+# Dejar comentarios entre lineas
+""" Dejar comentarios un poco mas 
+extensos """
+```
 
