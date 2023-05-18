@@ -32,4 +32,12 @@ Se utilizará "Replit" que permite realizar códigos desde el navegador
 
 ![Herramientas](Herramientas.jpg)
 
+## Print () ##
+
+Se utiliza para imprimir notas o resultados 
+
+```python
+print("Hola, mi nombre es Maria Antonia")
+```
+
 
