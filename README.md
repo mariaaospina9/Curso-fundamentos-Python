@@ -142,7 +142,7 @@ print("v3", template)
 # Numbers
 
 
-*Las variables tipo numero pueden ser enteras o flotantes y siempre se declaran sin estar encerradas entre comillas ya que de lo contrario serian tipo string.
+*Las variables tipo numero pueden ser enteras o flotantes y siempre se declaran sin estar encerradas entre comillas ya que de lo contrario serian tipo string.*
 
 ## Int
 ```python
@@ -155,7 +155,7 @@ print(type(lives))
 temperature = 12.12
 print(type(temperature))
 ```
-*Podemos realizar operaciones con la misma variable y para esto tenemos 2 formas de hacerlo, la cual la segunda es la forma simplificada donde se utilizan operadores de asignacion
+*Podemos realizar operaciones con la misma variable y para esto tenemos 2 formas de hacerlo, la cual la segunda es la forma simplificada donde se utilizan operadores de asignacion*
 
 ```python
 lives = lives - 1
@@ -166,7 +166,7 @@ lives + =5
 print(lives)
 ```
 
-*Python nos muestra en notación científica números cuyo valor es muy grande o muy pequeño
+*Python nos muestra en notación científica números cuyo valor es muy grande o muy pequeño*
 
 ```python
 #Valores extremadamente grandes 
