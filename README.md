@@ -141,6 +141,7 @@ print("v3", template)
 ```
 # Numbers
 
+
 *Las variables tipo numero pueden ser enteras o flotantes y siempre se declaran sin estar encerradas entre comillas ya que de lo contrario serian tipo string.
 
 ## Int
