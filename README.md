@@ -12,4 +12,24 @@ Ejercicios de curso práctico de platzi
 
 5. Tiene una gran demanda laboral en el mundo de la tecnología.
 
+## Herrameintas utilizadas en el curso ##
+
+Se utilizará "Replit" que permite realizar códigos desde el navegador 
+
+## Algunas herramientas de la industria ##
+
+1. **Visual Studio Code** que es un editos de código.
+
+2. **Terminal y línea de comandos** en diversos sistemas operativos.
+
+3. **Jupyter Notebooks** para data science.
+
+4. **Git** para control de versiones.
+
+5. Para entornos virtuales con **PIP**.
+
+6. Para entornos integrados de desarrollo (IDE) como **PyCharm, Visual Studio o DataSpell**.
+
+![Herramientas](Herramientas.jpg)
+
 
