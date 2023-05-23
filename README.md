@@ -237,3 +237,36 @@ print(2**3 + 3 - 7 /1)
 *Se debe de tener en cuenta la prioridad de la ecuación*
 
 ![PEMDAS](PEMDAS.JPG)
+
+# Operadores de comparación 
+
+Comparan dos expresiones y devuelven un valor Boolean que representa la relación de sus valores
+
+![OperadoresComparacion](OperadoresComparacion.JPG)
+
+
+``` python 
+# >
+print(7>3)
+print (3>7)
+
+# <
+print (5>6)
+print(6<5)
+
+# >=
+print(2 >= 1)
+print(2 >= 3)
+print(2 >= 2)
+
+age = 18
+print(age >= 18)
+
+# ==
+print (6==6)
+print("Apple" == "Apple")
+print("1"==1) #Son diferentes
+
+# != Valor diferente
+print(6 != 10)
+```
