@@ -366,3 +366,36 @@ if stock >= 100 and stock <= 1000:
 else:
   print("El stock es incorrecto")
 ```
+
+# Proyecto piedra, papel o tijera con condicionales
+
+![Proyecto](Proyecto.JPG)
+
+``` python
+user_option= input("Piedra, papel o tijera => ")
+computer_option = "papel"
+
+if user_option == computer_option:
+  print("Empate")
+elif user_option == "piedra":
+  if computer_option == "tijera":
+    print("Piedra gana a tijera")
+    print("User gano")
+  else:
+    print("Papel gana a piedra")
+    print("Computer gano")
+elif user_option == "papel":
+  if computer_option == "piedra":
+    print("Papel gana piedra")
+    print("User gano")
+  else:
+    print("Tijera gana a papel")
+    print("Computer gana")
+elif user_option == "tijera":
+  if computer_option == "papel":
+    print("Tijera gana a papel")
+    print("User gano")
+  else:
+    print("Piedra gana a tijera")
+    print("Computer gano")
+```
