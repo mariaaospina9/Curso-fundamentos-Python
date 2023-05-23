@@ -373,6 +373,7 @@ else:
 
 ``` python
 user_option= input("Piedra, papel o tijera => ")
+user_option= user_option.lower()
 computer_option = "papel"
 
 if user_option == computer_option:
