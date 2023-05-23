@@ -399,3 +399,99 @@ elif user_option == "tijera":
     print("Piedra gana a tijera")
     print("Computer gano")
 ```
+
+# Métodos de los Strings
+
+## Si la palabra se encuentra en el texto
+
+``` python
+text = "Ella sabe programar en Python"
+print("JavaScript" in text)
+print("Python" in text)
+
+if "Python" in text:
+  print("Elegiste bien!")
+else:
+  print("Tambien elegiste bien")
+```
+
+## Tamaño del texto 
+
+``` python
+#TAMAÑO DE TEXTO 
+size = len("text")
+print(size)
+```
+
+## Pasar a mayúsculas
+
+``` python
+#Mayusculas
+print(text)
+print(text.upper())
+```
+## Pasar a minúsculas
+
+``` python
+#Minusculas
+print(text.lower())
+```
+
+## Número de apariciones de una letra
+
+``` python
+#Número de apariciones de una letra
+print(text.count("a"))
+```
+
+## Pasar lo que esta en min a may y de may a min
+
+``` python
+#Pasar lo que esta en min a may y de may a min
+print(text.swapcase())
+```
+
+## Si el texto inicia con ()
+
+``` python
+#El texto inicia con...
+print(text.startswith("Ella"))
+```
+
+## Si el texto finaliza con ()
+
+``` python
+#El texto finaliza con...
+print(text.endswith("Python"))
+```
+
+## Reemplazar una palabra
+
+``` python
+#Reemplazar
+print(text.replace("Python", "Go"))
+```
+
+## Poner el primer carácter en mayúscula
+
+``` python
+#Poner el primer caracter en mayuscula
+text_2 = "este es un titulo"
+print(text_2)
+print(text_2.capitalize())
+```
+
+## Poner el incio de cada palabra en mayuscula
+
+``` python
+#Incio de cada palabra en mayuscula
+print(text_2.title())
+```
+
+## Saber si es un dígito 
+
+``` python
+#Saber si es un digito 
+print(text_2.isdigit())
+```
+
