@@ -234,6 +234,5 @@ print(2**3)
 print(2**3 + 3 - 7 /1)
 ```
 
-*Se debe de tener en cuenta la prioridad de la ecuación
-
-![PEMDAS](PEMDAS.jpg)
+*Se debe de tener en cuenta la prioridad de la ecuación*
+![PEMDAS](PEMDAS.JPG)
