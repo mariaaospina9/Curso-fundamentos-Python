@@ -177,4 +177,20 @@ print(number)
 number_b= 0.00000000001
 print(number_b)
 ```
+#Booleans
 
+*Tipo de dato que solo tiene 2 estados: True o False, y nos permiten saber si un objeto tiene o no un estado*
+
+```python
+is_single= True
+print(type(is_single))
+is_singlesigle= False
+print(is_single)
+
+#Para invertir el valor
+print(not True)
+print(not False)
+
+is_single= not is_single
+print(is_single)
+```
