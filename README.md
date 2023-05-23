@@ -507,7 +507,7 @@ text= "Ella sabe Python"
 #Dar la posición []
 print(text[1])
 ```
-* Posición de úlmo carácter del texto*
+* Posición de último carácter del texto
 
 ``` python
 #Último caracter del texto
@@ -526,11 +526,18 @@ print(text[-1])
 #Slicing - dar una cadena 
 print(text[0:5])
 print(text[:10]) #[0:10]
+```
 
+* Desde una posición hasta el final 
+
+``` python
 #Desde una posición hasta el final 
 print(text[5:])
 print(text[:])
+```
+* Número de saltos 
 
+``` python
 # Número de saltos
 print(text[10:16:2])
 print(text[::2])
