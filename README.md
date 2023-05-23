@@ -177,7 +177,7 @@ print(number)
 number_b= 0.00000000001
 print(number_b)
 ```
-#Booleans
+## Booleans
 
 *Tipo de dato que solo tiene 2 estados: True o False, y nos permiten saber si un objeto tiene o no un estado*
 
