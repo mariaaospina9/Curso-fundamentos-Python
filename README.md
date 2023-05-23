@@ -194,3 +194,46 @@ print(not False)
 is_single= not is_single
 print(is_single)
 ```
+
+# Transformación de datos
+
+Pasar un dato hacia un string para utilizarlo en la función print()
+
+```python
+age = input("Escribe tu edad")
+print(type(age))
+age = int(age)
+age += 10
+print(f"Tu edad en 10 años será {age}")
+```
+
+# Operadores aritméticos 
+
+Nos permiten reliazar cálculos tales como suma (+), resta (-), multuplicación (*), división (/), residuo (%), división con valor entero (//) y exponenciación (**) 
+
+``` python 
+print (10 + 20)
+print (10 - 5)
+print (10 * 2)
+print (10/2)
+
+#Contanenación
+print( "Hola" + "mundo")
+
+#Repetición de cadena
+print("Hola" *3)
+
+#Operador de módulo - residuo 
+print (10 % 2)
+
+#Operador de módulo entero 
+print(10//3)
+
+#Operador exponencial 
+print(2**3)
+print(2**3 + 3 - 7 /1)
+```
+
+*Se debe de tener en cuenta la prioridad de la ecuación
+
+![PEMDAS](PEMDAS.jpg)
