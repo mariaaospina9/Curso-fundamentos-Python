@@ -496,3 +496,42 @@ print(text_2.title())
 print(text_2.isdigit())
 ```
 
+# Indexing y slicing
+
+## Indexing 
+
+*Nos permite obtener el índice o posición de la primera aparición de un elemento dentro de una lista*
+
+``` python
+text= "Ella sabe Python"
+#Dar la posición []
+print(text[1])
+```
+* Posición de úlmo carácter del texto*
+
+``` python
+#Último caracter del texto
+size = len(text)
+print("size => ", size)
+print(text[size - 1])
+
+print(text[-1])
+```
+
+## Slicing 
+
+*Operación por medio de la cual se extraen elementos de una secuencia, tal como una lista o una cadena de caracteres*
+
+``` python
+#Slicing - dar una cadena 
+print(text[0:5])
+print(text[:10]) #[0:10]
+
+#Desde una posición hasta el final 
+print(text[5:])
+print(text[:])
+
+# Número de saltos
+print(text[10:16:2])
+print(text[::2])
+```
