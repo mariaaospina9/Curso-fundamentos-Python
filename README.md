@@ -656,3 +656,60 @@ print(numbers_a)
 strings = ["re", "ab", "ed"]
 strings.sort()
 print(strings)
+```
+
+# Tuplas 
+
+*Estructura de datos inmutables que contiene una secuencia ordenada de elementos*
+
+``` python
+#Tuplas - solo de lectura
+#CRUD - no se puede modificar 
+numbers= (1,2,3,5)
+strings = ("nico", "zule", "santi")
+print(numbers)
+print(strings)
+
+print(type(numbers))
+print(type(strings))
+```
+
+* Buscar elementos
+``` python
+#Buscar elementos
+print("0 =>", numbers[0])
+print("-1 =>", numbers[-1])
+```
+
+* Buscar posición
+``` python
+#Buscar posición 
+print(strings)
+print(strings.index("zule"))
+```
+
+* Conteo en tupla
+``` python
+#Conteo en tupla
+print(strings.count("nico"))
+```
+
+* Transformación de tupla a lista
+``` python
+#Transformación de tupla a lista
+my_list = list(strings)
+print(my_list)
+print(type(my_list))
+
+#Se puede comenzar a modificar
+my_list[1]= "juli"
+print(my_list)
+```
+
+* Trasnformación de lista a tupla
+``` python
+#Trasnformación de lista a tupla
+my_tuple= tuple(my_list)
+print(my_tuple)
+```
+
