@@ -791,3 +791,29 @@ print(my_dict.get("age")) #si no existe - dira none (nada definido)
 print("avion" in my_dict)
 ```
 
+* Actualización 
+
+``` python
+person = {
+  "name": "Maria"
+  "last_name": "Ospina"
+  "langs": ["python", "javascript"]
+  "age": 99
+}
+
+print(person)
+
+#Actualización 
+person["name"]= "Santi"
+person["age"]-= 50
+person["langs"].append("rust")
+print(person)
+```
+
+* Eliminación 
+
+``` python
+#Eliminación 
+del person["last_name"]
+person.pop("age")
+print(perso
