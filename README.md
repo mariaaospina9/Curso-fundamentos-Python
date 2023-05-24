@@ -706,7 +706,7 @@ my_list[1]= "juli"
 print(my_list)
 ```
 
-* Trasnformación de lista a tupla
+* Transformación de lista a tupla
 ``` python
 #Trasnformación de lista a tupla
 my_tuple= tuple(my_list)
