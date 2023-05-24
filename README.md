@@ -817,3 +817,17 @@ print(person)
 del person["last_name"]
 person.pop("age")
 print(perso
+
+* Orden
+
+``` python
+#Orden 
+print("items")
+print(person.items())
+
+print("keys")
+print(person.keys())
+
+print("values")
+print(person.values())
+```
