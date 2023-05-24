@@ -579,7 +579,6 @@ print(3 in numbers)
 ```
 
 ## Métodos de listas 
-
 ![Metodos](Metodos.JPG)
 
 ``` python
@@ -607,7 +606,7 @@ numbers.insert(3, "change")
 print(numbers)
 ```
 
-* Union de listas
+* Unión de listas
 ``` python
 #Union de listas
 task=["todo 1", "todo 2","todo 3"]
