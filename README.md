@@ -817,6 +817,7 @@ print(person)
 del person["last_name"]
 person.pop("age")
 print(perso
+``` 
 
 * Orden
 
