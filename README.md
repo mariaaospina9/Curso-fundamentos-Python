@@ -832,3 +832,36 @@ print(person.keys())
 print("values")
 print(person.values())
 ```
+# Ciclos
+
+## Loops: While
+
+``` python
+counter = 0
+
+while counter < 10:
+  counter += 1
+  print(counter)
+```
+
+* Break
+``` python  
+#Break - rompiendo de forma forzadaa
+counter= 0
+while counter < 20:
+  counter += 1
+  if counter == 15
+    break 
+  print(counter)
+```
+
+* Continue 
+``` python
+#Continue (del 15-20) 
+counter= 0
+while counter < 20:
+  counter += 1
+  if counter < 15
+    continue   
+  print(counter)
+```
